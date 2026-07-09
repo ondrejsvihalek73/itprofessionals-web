@@ -1,6 +1,6 @@
 export default function Logo({ className = "" }: { className?: string }) {
   return (
-    <a href="#top" className={`group flex flex-col leading-none ${className}`}>
+    <a href="/" className={`group flex flex-col leading-none ${className}`}>
       <span className="font-display text-lg font-bold tracking-tight text-fg">
         IT Professionals
       </span>

@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="wrap relative">
         <div className="max-w-4xl animate-fadeUp">
           <p className="eyebrow mb-8">{hero.eyebrow}</p>
-          <h1 className="font-display text-5xl font-bold leading-[1.02] tracking-tight sm:text-6xl md:text-7xl lg:text-[5.5rem]">
+          <h1 className="whitespace-nowrap font-display text-[clamp(1.4rem,5.3vw,3.5rem)] font-bold leading-[1.08] tracking-tight">
             <span className="block text-fg">{hero.titleLine1}</span>
             <span className="block text-accent">{hero.titleLine2}</span>
           </h1>

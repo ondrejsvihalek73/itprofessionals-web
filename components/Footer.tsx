@@ -8,9 +8,9 @@ export default function Footer() {
     <footer className="border-t border-line bg-ink-soft py-14">
       <div className="wrap">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
-          <div className="max-w-sm">
+          <div className="max-w-xl">
             <Logo />
-            <p className="mt-5 text-sm leading-relaxed text-muted">
+            <p className="mt-5 text-sm leading-relaxed text-muted md:whitespace-nowrap">
               Software development and digital consulting for the new economy.
             </p>
           </div>

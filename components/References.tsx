@@ -16,13 +16,13 @@ export default function References() {
               key={item.client}
               className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-ink-card p-4 transition-colors hover:border-accent/50"
             >
-              <div className="flex h-48 items-center justify-center overflow-hidden rounded-xl bg-ink-soft p-4">
+              <div className="overflow-hidden rounded-xl bg-ink-soft">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={item.image}
                   alt={`${item.client} — ${item.kind}`}
                   loading="lazy"
-                  className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                 />
               </div>
 

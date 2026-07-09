@@ -14,7 +14,7 @@ export const site = {
   legalName: "IT Professionals",
   email: "info@itprofessionals.cz",
   founder: "Ondrej Svihalek",
-  location: "Prague, Czech Republic, Europe",
+  location: "Prague, London, Oslo & Europe",
   instagram: "https://instagram.com/it_professionals.cz",
   // TODO: replace with your real registered address / VAT if you want them shown
   address: "Prague 4, Czech Republic",
@@ -44,7 +44,7 @@ export const hero = {
 export const credentials = {
   kicker: "What we bring to the table",
   stats: [
-    { value: "11+ yrs", label: "Combined experience across dev, tech, sales & operations" },
+    { value: "20+ yrs", label: "Combined experience across dev, tech, sales & operations" },
     { value: "AI · IoT · 4.0", label: "From artificial intelligence to Industry 4.0 and IoT" },
     { value: "SME → Blue-chip", label: "Trusted by small businesses and corporate clients alike" },
   ],
@@ -196,7 +196,7 @@ export const work = {
         "AI reduces effort and error and speeds up work with accurate results — from generating leads to relieving day-to-day pressure across every sector.",
     },
     {
-      title: "Agile Programs",
+      title: "Agile Programmes",
       tag: "Agile",
       description:
         "A lightweight framework that keeps teams focused on delivering business value fast in a constantly evolving landscape — significantly reducing project risk.",
@@ -217,7 +217,7 @@ export const work = {
       title: "Digital Innovation",
       tag: "Strategy",
       description:
-        "Modernization alone isn't enough. We give innovation a purpose — technology as the enabler of a greater vision and mission, not the answer itself.",
+        "Modernisation alone isn't enough. We give innovation a purpose — technology as the enabler of a greater vision and mission, not the answer itself.",
     },
     {
       title: "Digital Sales Channels",
@@ -229,7 +229,7 @@ export const work = {
       title: "Electromobility",
       tag: "Mobility",
       description:
-        "Electrification reshapes how cars are built and links transport with energy systems — a paradigm change driving new alliances far beyond automotive.",
+        "Electrification reshapes how cars are built and links transport with energy systems — a paradigm shift driving new alliances far beyond the automotive industry.",
     },
     {
       title: "Industry 4.0",
@@ -285,7 +285,7 @@ export const work = {
 // Client references / realizations (from the IT Professionals reference deck).
 export const references = {
   eyebrow: "References",
-  title: "Selected realizations.",
+  title: "Selected projects.",
   lead: "A selection of digital products, apps and platforms we have designed and delivered for leading brands.",
   items: [
     {
@@ -303,14 +303,6 @@ export const references = {
         "Premium online cookbooks for Burda Media — native phone and tablet apps with rich multimedia content (text, photography, video and an interactive mode), integrated with the editorial systems.",
       tags: ["Mobile app", "Multimedia", "CMS integration"],
       image: "/references/apetit.jpg",
-    },
-    {
-      client: "Škoda Auto",
-      kind: "Connected digital concept",
-      description:
-        "Digital and mobile concept work for Škoda Auto — connecting the vehicle, the driver and the app experience.",
-      tags: ["Automotive", "Concept", "Mobile"],
-      image: "/references/skoda.jpg",
     },
     {
       client: "DOX",
@@ -356,7 +348,7 @@ export const references = {
       client: "ŠKODA Drive",
       kind: "Škoda Auto — Connected Car programme",
       description:
-        "Part of Škoda Auto's Connected Car programme — an app and portal that turn real vehicle data into feedback on driving economy, plot trips on a map, track parameters and share to social, with day/night mode and in-car MirrorLink.",
+        "Part of Škoda Auto's Connected Car programme — an app and portal that turn real vehicle data into feedback on driving economy, plot trips on a map, track parameters and share to social media, with day/night mode and in-car MirrorLink.",
       tags: ["Connected car", "iOS / Android", "Integration"],
       image: "/references/skoda-drive.jpg",
     },
@@ -436,8 +428,8 @@ export const references = {
       client: "Mobile Store",
       kind: "Mobile solution",
       description:
-        "eCommerce in mobile form — a familiar e-shop look and feel on mobile devices, tied to your existing back-end. Server-controlled offers, full product presentations, push notifications and promotion support for a quick, low-cost launch.",
-      tags: ["eCommerce", "Mobile", "Back-end"],
+        "E-commerce in mobile form — a familiar e-shop look and feel on mobile devices, tied to your existing back-end. Server-controlled offers, full product presentations, push notifications and promotion support for a quick, low-cost launch.",
+      tags: ["E-commerce", "Mobile", "Back-end"],
       image: "/references/sol-store.jpg",
     },
     {
@@ -549,7 +541,7 @@ export const about = {
   eyebrow: "About us",
   title: "This is\nIT Professionals.",
   quotes: [
-    "The hectic race that startups impose — it is still possible to stand up for an industrial vision, where companies invent and deploy a singular digital culture.",
+    "Despite the hectic race that startups impose, it is still possible to stand up for an industrial vision — where companies invent and deploy a singular digital culture.",
     "Adaptation and innovation are the only ways to carry weight in the digital economy.",
     "The performance standards of the new economy make our jobs even more exciting: a combination of cutting-edge technology, craftsmanship and executive coaching.",
   ],
